@@ -23,7 +23,7 @@ public class MoveRandomlyScript : MonoBehaviour {
     private IEnumerator ChangeDirection()
     {
         Vector3 startPosition = new Vector3(StartPosition.x, StartPosition.y, StartPosition.z);
-        destination = startPosition += new Vector3(Random.Range(-15, 15), Random.Range(-7, 20));
+        destination = startPosition += new Vector3(Random.Range(-13, 13), Random.Range(-7, 10));
         moveSpeed = Random.Range(5, 15);
         yield return new WaitForSeconds(Random.Range(2, 5));
         StartCoroutine(ChangeDirection());

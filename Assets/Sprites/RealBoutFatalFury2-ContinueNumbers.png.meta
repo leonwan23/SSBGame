@@ -1,0 +1,1114 @@
+fileFormatVersion: 2
+guid: ca1da4d4068c3f64cb1c9f239ba6fc68
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: RealBoutFatalFury2-ContinueNumbers_0
+    21300002: RealBoutFatalFury2-ContinueNumbers_1
+    21300004: RealBoutFatalFury2-ContinueNumbers_2
+    21300006: RealBoutFatalFury2-ContinueNumbers_3
+    21300008: RealBoutFatalFury2-ContinueNumbers_4
+    21300010: RealBoutFatalFury2-ContinueNumbers_5
+    21300012: RealBoutFatalFury2-ContinueNumbers_6
+    21300014: RealBoutFatalFury2-ContinueNumbers_7
+    21300016: RealBoutFatalFury2-ContinueNumbers_8
+    21300018: RealBoutFatalFury2-ContinueNumbers_9
+    21300020: RealBoutFatalFury2-ContinueNumbers_10
+    21300022: RealBoutFatalFury2-ContinueNumbers_11
+    21300024: RealBoutFatalFury2-ContinueNumbers_12
+    21300026: RealBoutFatalFury2-ContinueNumbers_13
+    21300028: RealBoutFatalFury2-ContinueNumbers_14
+    21300030: RealBoutFatalFury2-ContinueNumbers_15
+    21300032: RealBoutFatalFury2-ContinueNumbers_16
+    21300034: RealBoutFatalFury2-ContinueNumbers_17
+    21300036: RealBoutFatalFury2-ContinueNumbers_18
+    21300038: RealBoutFatalFury2-ContinueNumbers_19
+    21300040: RealBoutFatalFury2-ContinueNumbers_20
+    21300042: RealBoutFatalFury2-ContinueNumbers_21
+    21300044: RealBoutFatalFury2-ContinueNumbers_22
+    21300046: RealBoutFatalFury2-ContinueNumbers_23
+    21300048: RealBoutFatalFury2-ContinueNumbers_24
+    21300050: RealBoutFatalFury2-ContinueNumbers_25
+    21300052: RealBoutFatalFury2-ContinueNumbers_26
+    21300054: RealBoutFatalFury2-ContinueNumbers_27
+    21300056: RealBoutFatalFury2-ContinueNumbers_28
+    21300058: RealBoutFatalFury2-ContinueNumbers_29
+    21300060: RealBoutFatalFury2-ContinueNumbers_30
+    21300062: RealBoutFatalFury2-ContinueNumbers_31
+    21300064: RealBoutFatalFury2-ContinueNumbers_32
+    21300066: RealBoutFatalFury2-ContinueNumbers_33
+    21300068: RealBoutFatalFury2-ContinueNumbers_34
+    21300070: RealBoutFatalFury2-ContinueNumbers_35
+    21300072: RealBoutFatalFury2-ContinueNumbers_36
+    21300074: RealBoutFatalFury2-ContinueNumbers_37
+    21300076: RealBoutFatalFury2-ContinueNumbers_38
+    21300078: RealBoutFatalFury2-ContinueNumbers_39
+    21300080: RealBoutFatalFury2-ContinueNumbers_40
+    21300082: RealBoutFatalFury2-ContinueNumbers_41
+    21300084: RealBoutFatalFury2-ContinueNumbers_42
+    21300086: RealBoutFatalFury2-ContinueNumbers_43
+    21300088: RealBoutFatalFury2-ContinueNumbers_44
+    21300090: RealBoutFatalFury2-ContinueNumbers_45
+    21300092: RealBoutFatalFury2-ContinueNumbers_46
+    21300094: RealBoutFatalFury2-ContinueNumbers_47
+  externalObjects: {}
+  serializedVersion: 5
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RealBoutFatalFury2-ContinueNumbers_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 154
+        width: 74
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f1aac0e52090854e867dd755bc5131e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoutFatalFury2-ContinueNumbers_1
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 154
+        width: 74
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51eced1c9a9f5c049968ede2a189b047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoutFatalFury2-ContinueNumbers_2
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 155
+        width: 72
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77f1397df4d85f24684e66c5ac39bd06
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoutFatalFury2-ContinueNumbers_3
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 158
+        width: 71
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fcdd1c0ba2190d49bca36d7c3c9d6e1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoutFatalFury2-ContinueNumbers_4
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 158
+        width: 69
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 147aedbe8b3c9ab43b06dc9bfe1ea6ba
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoutFatalFury2-ContinueNumbers_5
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 63
+        width: 80
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bde6a20c1d5ae634c8420d8eb45db275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoutFatalFury2-ContinueNumbers_6
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 63
+        width: 72
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9f43590bc411b6438dedb38fdb56854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoutFatalFury2-ContinueNumbers_7
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 63
+        width: 72
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c85a5e0246c484c4ea6e7fc2d78de6d3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoutFatalFury2-ContinueNumbers_8
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 63
+        width: 48
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c8a47f71939e264ca214da14e13c760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoutFatalFury2-ContinueNumbers_9
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 61
+        width: 72
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 570326ada3731d04ead10e4da88ec211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoutFatalFury2-ContinueNumbers_10
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 8
+        width: 140
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f56aa4ab8b2ce43469cecb3386849d6f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoutFatalFury2-ContinueNumbers_11
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 8
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52f94f37e9a66704790eb8ab6495cce4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoutFatalFury2-ContinueNumbers_12
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 8
+        width: 97
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1a40cc5d5cbf0e4c9f7e9146337a0e8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoutFatalFury2-ContinueNumbers_13
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 40
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17647e4ba3abe604095ce676aefa057d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoutFatalFury2-ContinueNumbers_14
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 38
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f22a4cb85068fbb40a9adacef853c27f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoutFatalFury2-ContinueNumbers_15
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 38
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6c8a86a81e35b14c80a06d66f21b475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoutFatalFury2-ContinueNumbers_16
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 40
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d44b66e84b64eab4ca42b7fe0df7fc60
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoutFatalFury2-ContinueNumbers_17
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 40
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ee083a2a0d125e4086e0bf91bdf7ece
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoutFatalFury2-ContinueNumbers_18
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 40
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8456ac5f721a9842a62437e0bccf88b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoutFatalFury2-ContinueNumbers_19
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 38
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63f0ff4f4363ec240a98f608fb01b181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoutFatalFury2-ContinueNumbers_20
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 38
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cd4293b5ee013d4f98bf0487e8c4fa9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoutFatalFury2-ContinueNumbers_21
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 40
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19ad7f6b5840ecb4c99693b156e60050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoutFatalFury2-ContinueNumbers_22
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 40
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae8d62cb06335ed458da61e17422c121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoutFatalFury2-ContinueNumbers_23
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 40
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79976ea72b409b3468acb87832658bcf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoutFatalFury2-ContinueNumbers_24
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 40
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b9e81e66119c95418f6763ea299903c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoutFatalFury2-ContinueNumbers_25
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 27
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 611ac183f87ae6448928769eaa771927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoutFatalFury2-ContinueNumbers_26
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 25
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10ba7b883c76cda449d4a551efb1e2ae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoutFatalFury2-ContinueNumbers_27
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 27
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29f399f0f05bc3344bca17464e992907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoutFatalFury2-ContinueNumbers_28
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 27
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bf73bdc4b2134d45afd3c328dfa04d3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoutFatalFury2-ContinueNumbers_29
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 27
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 265945e4f5dba3f40b0862d4a237923a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoutFatalFury2-ContinueNumbers_30
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 27
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f1e5bf021771d745a38f4dea84e1853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoutFatalFury2-ContinueNumbers_31
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 27
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 820530e3208c2514eb959274e10fe65a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoutFatalFury2-ContinueNumbers_32
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 27
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d49f16aafe7060946ab78019151605a6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoutFatalFury2-ContinueNumbers_33
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 27
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 361f977f044048942a829105b07a82a9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoutFatalFury2-ContinueNumbers_34
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 27
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90f24bad033f8be40a701870f982a9a4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoutFatalFury2-ContinueNumbers_35
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 14
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90be11fc158d8704fb48d81178a96520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoutFatalFury2-ContinueNumbers_36
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 14
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3822a56f2e471d14f8420f7d7da42b12
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoutFatalFury2-ContinueNumbers_37
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 14
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6e8351b1ec8c63449a7ff314142fcb1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoutFatalFury2-ContinueNumbers_38
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 14
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b1b7c425e6f0d347b158e11dc07c3b6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoutFatalFury2-ContinueNumbers_39
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 14
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0557a4cea24e7c248a8a190576dbc33c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoutFatalFury2-ContinueNumbers_40
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 14
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25d9ffa482f55f049932769ecca6ecd0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoutFatalFury2-ContinueNumbers_41
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 14
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c37739da8c0b53a44ba314ed670cc88f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoutFatalFury2-ContinueNumbers_42
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 14
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d35e69193fedf545a24706ff8ed05c8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoutFatalFury2-ContinueNumbers_43
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 14
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50e0621b373a6964aa59d664722d5e8c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoutFatalFury2-ContinueNumbers_44
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 14
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9f9c2f755e6ea740af6a542d76adc01
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoutFatalFury2-ContinueNumbers_45
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 14
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fc976ac74c1d974c86407a53b4d47ca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoutFatalFury2-ContinueNumbers_46
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 14
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4bcca25df144bb46a97defc6294e41f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RealBoutFatalFury2-ContinueNumbers_47
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 14
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81aaf533db542a34ea50a3d8999abe61
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: ac61579bc2d313e4993b08a99bc233d3
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
