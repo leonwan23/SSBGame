@@ -11,6 +11,8 @@ public class MrSmileyScript : MonoBehaviour {
     public float jumpForce = 50f;
     bool facingRight = true;
     Vector3 localScale;
+    bool isOnGround = true;
+    bool canDoubleJump = false;
 
 	// Use this for initialization
 	void Start () {
@@ -22,10 +24,24 @@ public class MrSmileyScript : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-        if(Input.GetButtonDown("Jump") && rb.velocity.y == 0)
+        if (isOnGround)
         {
-            rb.AddForce(Vector2.up * jumpForce);
+            if (Input.GetButtonDown("Jump"))
+            {
+                rb.AddForce(Vector2.up * jumpForce);
+                isOnGround = false;
+                canDoubleJump = true;
+            }
+        } else
+        {
+            if(Input.GetButtonDown("Jump") && canDoubleJump)
+            {
+                canDoubleJump = false;
+                rb.velocity = new Vector2(rb.velocity.x, 0);
+                rb.AddForce(Vector2.up * jumpForce);
+            }
         }
+
 
         SetAnimationState();
 
@@ -44,12 +60,12 @@ public class MrSmileyScript : MonoBehaviour {
 
     void SetAnimationState()
     {
-        if (dirX == 0)
+        if (dirX == 0 && isOnGround) //idle
         {
             anim.SetBool("isRunning", false);
         }
 
-        if(Mathf.Abs(dirX) == moveSpeed && rb.velocity.y == 0)
+        if(Mathf.Abs(dirX) == moveSpeed && rb.velocity.y == 0) //running
         {
             anim.SetBool("isRunning", true);
         }
@@ -60,14 +76,25 @@ public class MrSmileyScript : MonoBehaviour {
             anim.SetBool("isFalling", false);
         }
 
-        if(rb.velocity.y > 0)
+        if(rb.velocity.y > 0) //jump
         {
-            anim.SetBool("isJumping", true);
+            if (canDoubleJump)
+            {
+                anim.SetBool("isRunning", false);
+                anim.SetBool("isJumping", true);
+                anim.SetBool("isDoubleJump", false);
+            } else
+            {
+                anim.SetBool("isRunning", false);
+                anim.SetBool("isDoubleJump", true);
+            }
         }
 
-        if(rb.velocity.y < 0)
+        if (rb.velocity.y < 0) //fall
         {
+            anim.SetBool("isRunning", false);
             anim.SetBool("isJumping", false);
+            anim.SetBool("isDoubleJump", false);
             anim.SetBool("isFalling", true);
         }
     }
@@ -88,5 +115,18 @@ public class MrSmileyScript : MonoBehaviour {
         }
 
         transform.localScale = localScale;
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)         //-----------BUGGY WHEN WALKING OFF PLATFORM------------///
+    {
+        if (collision.collider.tag == "Ground")
+        {
+            Vector3 contactPoint = collision.contacts[0].point;
+            Vector3 center = collision.collider.bounds.center;
+            if (contactPoint.y > center.y) //top of ground
+            {
+                isOnGround = true;
+            } 
+        }
     }
 }
