@@ -13,12 +13,20 @@ public class MrSmileyScript : MonoBehaviour {
     Vector3 localScale;
     bool isOnGround = true;
     bool canDoubleJump = false;
+    bool isCrouching = false;
 
-	// Use this for initialization
-	void Start () {
+    public float timeBetweenHadouken = 2f;
+    public GameObject hadouken;
+    private float nextHadouken;
+    public float hadoukenSpeed;
+    public Transform hadoukenPoint;
+
+    // Use this for initialization
+    void Start () {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         localScale = transform.localScale;
+        nextHadouken = 0;
 	}
 	
 	// Update is called once per frame
@@ -42,7 +50,6 @@ public class MrSmileyScript : MonoBehaviour {
             }
         }
 
-
         SetAnimationState();
 
         dirX = Input.GetAxisRaw("Horizontal") * moveSpeed;
@@ -60,9 +67,21 @@ public class MrSmileyScript : MonoBehaviour {
 
     void SetAnimationState()
     {
-        if (dirX == 0 && isOnGround) //idle
+
+        if (Input.GetKeyDown(KeyCode.C) && !anim.GetCurrentAnimatorStateInfo(0).IsName("Character_B_Attack") && nextHadouken<Time.time)  //BAttack
+        {
+            nextHadouken = Time.time + timeBetweenHadouken;
+            Invoke("ShootHadouken", 0.3f);
+            anim.SetBool("isRunning", false);
+            anim.SetTrigger("BAttack");
+        }
+
+        if (dirX == 0 && rb.velocity.y ==0) //idle
         {
             anim.SetBool("isRunning", false);
+            anim.SetBool("isJumping", false);
+            anim.SetBool("isDoubleJump", false);
+            anim.SetBool("isFalling", false);
         }
 
         if(Mathf.Abs(dirX) == moveSpeed && rb.velocity.y == 0) //running
@@ -83,7 +102,7 @@ public class MrSmileyScript : MonoBehaviour {
                 anim.SetBool("isRunning", false);
                 anim.SetBool("isJumping", true);
                 anim.SetBool("isDoubleJump", false);
-            } else
+            } else //double jump
             {
                 anim.SetBool("isRunning", false);
                 anim.SetBool("isDoubleJump", true);
@@ -115,6 +134,7 @@ public class MrSmileyScript : MonoBehaviour {
         }
 
         transform.localScale = localScale;
+        hadoukenPoint.localScale = localScale;
     }
 
     private void OnCollisionEnter2D(Collision2D collision)         //-----------BUGGY WHEN WALKING OFF PLATFORM------------///
@@ -128,5 +148,11 @@ public class MrSmileyScript : MonoBehaviour {
                 isOnGround = true;
             } 
         }
+    }
+
+    void ShootHadouken()
+    {
+        GameObject clone = (GameObject)Instantiate(hadouken, hadoukenPoint.position, hadoukenPoint.rotation);
+        clone.GetComponent<Rigidbody2D>().AddForce(Vector3.right * hadoukenSpeed);
     }
 }
