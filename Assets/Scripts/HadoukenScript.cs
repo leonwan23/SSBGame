@@ -13,14 +13,6 @@ public class HadoukenScript : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         rb = GetComponent<Rigidbody2D>();
-
-        //if(transform.rotation.y > 0) //facing right
-        //{ 
-        //    rb.AddForce(Vector3.right * speed, ForceMode2D.Impulse);
-        //} else
-        //{
-        //    rb.AddForce(Vector3.right * -speed, ForceMode2D.Impulse);
-        //}
 	}
 	
 	// Update is called once per frame

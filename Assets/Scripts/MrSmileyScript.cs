@@ -27,6 +27,7 @@ public class MrSmileyScript : MonoBehaviour {
         anim = GetComponent<Animator>();
         localScale = transform.localScale;
         nextHadouken = 0;
+        hadouken.GetComponent<SpriteRenderer>().flipX = false;
 	}
 	
 	// Update is called once per frame
@@ -123,9 +124,12 @@ public class MrSmileyScript : MonoBehaviour {
         if (dirX > 0)
         {
             facingRight = true;
+            hadouken.GetComponent<SpriteRenderer>().flipX = false;
+
         } else if (dirX < 0)
         {
             facingRight = false;
+            hadouken.GetComponent<SpriteRenderer>().flipX = true;            
         }
 
         if (((facingRight) && (localScale.x < 0)) || ((!facingRight) && (localScale.x > 0)))
@@ -153,6 +157,9 @@ public class MrSmileyScript : MonoBehaviour {
     void ShootHadouken()
     {
         GameObject clone = (GameObject)Instantiate(hadouken, hadoukenPoint.position, hadoukenPoint.rotation);
-        clone.GetComponent<Rigidbody2D>().AddForce(Vector3.right * hadoukenSpeed);
+        if(facingRight)
+            clone.GetComponent<Rigidbody2D>().AddRelativeForce(Vector3.right * hadoukenSpeed, ForceMode2D.Impulse);
+        else
+            clone.GetComponent<Rigidbody2D>().AddRelativeForce(Vector3.right * -hadoukenSpeed, ForceMode2D.Impulse);
     }
 }

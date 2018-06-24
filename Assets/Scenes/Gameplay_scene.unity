@@ -787,7 +787,7 @@ Prefab:
     - target: {fileID: 114110281560872696, guid: 4bc52d10b5c25ab478213f00b888f1c6,
         type: 2}
       propertyPath: hadoukenSpeed
-      value: 0.01
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4bc52d10b5c25ab478213f00b888f1c6, type: 2}
